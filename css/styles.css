@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    padding-top: 1rem;
+    width: 100%;
+}
+.title{
+padding: 20% 5%;
+color: white;
+
+}
