@@ -8,18 +8,29 @@ body{
     width: 100%;
 }
 .title{
-padding: 20% 5%;
+padding: 10% 5% 5%;
 color: white;
+width: 50%;
 
 }
 #gallery{
     margin: 5% 0 0;
-    padding: 5%;
+    padding: 0% 10%;
 }
 .servicestab{
- padding: 5% 5% 5%;   
+ padding: 0% 5%;   
 }
 .pageheader{
     text-align: center;
-    padding:10% 2% 2%;
+    padding:5% 2% 2%;
+}
+.mainlogo{
+
+}
+.card{
+    text-align: center;
+    background-color: grey
+}
+#gallery{
+    margin: 0cm;
 }
