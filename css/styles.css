@@ -12,3 +12,14 @@ padding: 20% 5%;
 color: white;
 
 }
+#gallery{
+    margin: 5% 0 0;
+    padding: 5%;
+}
+.servicestab{
+ padding: 5% 5% 5%;   
+}
+.pageheader{
+    text-align: center;
+    padding:10% 2% 2%;
+}
