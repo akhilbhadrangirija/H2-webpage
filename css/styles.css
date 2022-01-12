@@ -1,17 +1,39 @@
 body{
     position: relative;
 }
+@media only screen and (max-width: 600px) {
+    .title{
+    max-width: 100%;
+    padding-top: 25%;
+    }
+  }
 .bg{
     position: absolute;
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
     z-index: -1;
-    padding-top: 1rem;
-    width: 100%;
+}
+#home,#services,#gallery{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+#services{
+    padding: 5%;
+    text-align: center;
+}
+.feature-box {
+    padding: 4.5%;
 }
 .title{
-padding: 10% 5% 5%;
-color: white;
-width: 50%;
-
+    text-align: center;
+    color: whitesmoke;
 }
 #gallery{
     margin: 5% 0 0;
@@ -29,8 +51,5 @@ width: 50%;
 }
 .card{
     text-align: center;
-    background-color: grey
-}
-#gallery{
-    margin: 0cm;
+    background-color: wheat
 }
