@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 :root {
-  --primary-color: #00b272;
+  --primary-color: #E83A14;
   --font-family: "Poppins", sans-serif;
   --text-light-shade: #8e8e8e;
   --text-dark-shade: #424242;
@@ -39,8 +39,8 @@ body {
   height: 27px;
 }
 .logo {
-  width: 200px;
-  height: 60px;
+  width: 70px;
+  height: 70%;
   margin-left: 2rem;
 }
 .button {
@@ -70,8 +70,8 @@ body {
     height: 50px;
   }
   .logo {
-    width: 160px;
-    height: 47px;
+    width: 60px;
+    height: 70%;
   }
   .button {
     padding: 4px 8px;
@@ -210,15 +210,15 @@ body {
   filter: drop-shadow(4px 4px 12px rgba(0, 0, 0, 0.25));
 }
 .home-images1 {
-  background-image: url("../images/alziyara-home-image-1.webp");
+  background-image: url("../images/IMG-20210408-WA0009.jpg");
 }
 .home-images2 {
   top: 3rem;
-  background-image: url("../images/alziyara-home-image-2.webp");
+  background-image: url("../images/bg-gradient-crop.jpg");
 }
 .home-images3 {
   bottom: 3rem;
-  background-image: url("../images/alziyara-home-image-3.webp");
+  background-image: url("../images/IMG-20210414-WA0003.jpg");
 }
 .home-images1:hover,
 .home-images2:hover,
